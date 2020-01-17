@@ -33,35 +33,6 @@ node_modules/framer/build/framer.api.json
 node_modules/framer/README.md
 node_modules/framer/LICENSE.md
 node_modules/framer/CHANGELOG.md
-node_modules/@framer/ruucm-h.audio/tsconfig.json
-node_modules/@framer/ruucm-h.audio/package.json
-node_modules/@framer/ruucm-h.audio/metadata/icon.png
-node_modules/@framer/ruucm-h.audio/dist/index.js
-node_modules/@framer/ruucm-h.audio/code/canvas.tsx
-node_modules/@framer/ruucm-h.audio/code/TestApp2.tsx
-node_modules/@framer/ruucm-h.audio/code/Examples.tsx
-node_modules/@framer/ruucm-h.audio/code/AudioPlayer.tsx
-node_modules/@framer/ruucm-h.audio/README.md
-node_modules/@framer/kasimir.iphone-x-kit/tsconfig.json
-node_modules/@framer/kasimir.iphone-x-kit/package.json
-node_modules/@framer/kasimir.iphone-x-kit/metadata/icon.png
-node_modules/@framer/kasimir.iphone-x-kit/metadata/artwork.png
-node_modules/@framer/kasimir.iphone-x-kit/dist/index.js
-node_modules/@framer/kasimir.iphone-x-kit/design/document.json
-node_modules/@framer/kasimir.iphone-x-kit/code/canvas.tsx
-node_modules/@framer/kasimir.iphone-x-kit/code/Status Bar/Status_Bar.tsx
-node_modules/@framer/kasimir.iphone-x-kit/code/Home Button (iPhone X)/HomeButton.tsx
-node_modules/@framer/kasimir.iphone-x-kit/build/index.js
-node_modules/@framer/kasimir.iphone-x-kit/README.md
-design/images/o0UBumrkx8jbB4i0gISQTnDYliE.jpg
-design/images/nu7fviLihlpgokS7WEiibAcGepY.png
-design/images/nBZjjpEIyrJZKUDcOQoWfpAB2Q.png
-design/images/Zwi4WbSQrNqMyinnOACzdUn8.jpg
-design/images/SfYbgRD9thALPG0HQBP48D7Idk.png
-design/images/Gp7MznX5VLZZmLfENLeRRxo1AiM.jpg
-design/images/E6hQsUmdNn5NEeAA0IcbzDeIHFk.jpg
-design/assets/above the time - IU.mp3
-design/assets/Memories - Maroon 5.mp3
 build/vendors.js
 build/framer.js
 index.html
