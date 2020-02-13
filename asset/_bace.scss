@@ -87,6 +87,26 @@ li {
   color: $black;
 }
 
+.btn-accent-a:hover ~ .q-minhee-b {
+  opacity: 1;
+}
+
+.q-minhee {
+  background-color: $white;
+  padding: 12px;
+  border-radius: 24px;
+  opacity: 1;
+}
+
+.q-minhee-b {
+  background-color: $white;
+  padding: 24px;
+  border-radius: 24px;
+  opacity: 0;
+
+  margin-top: 24px;
+}
+
 .btn-accent-b {
   background-color: $point;
   width: 120px;
@@ -98,6 +118,9 @@ li {
   background-color: $white;
 }
 
+.btn-accent-b:hover ~ .q-minhee-b {
+  opacity: 1;
+}
 // ===================== 👆header end👆
 
 // ===================== 👇contents start👇
@@ -119,6 +142,16 @@ li {
   text-align: center;
 }
 
+.q-minhee-c {
+  background-color: $white;
+  width: 280px;
+  margin: 0 auto;
+  text-align: left;
+  margin-bottom: 24px;
+  padding: 24px;
+  border-radius: 24px;
+  opacity: 1;
+}
 .content-a-arw {
   z-index: 6;
   position: fixed;
@@ -126,8 +159,13 @@ li {
   width: 100%;
 }
 
+.content-a-arw:hover ~ .q-minhee-c {
+  opacity: 1;
+}
+
 .ic-arw {
   display: inline-block;
+  cursor: pointer;
 }
 
 // 👇title👇
@@ -139,6 +177,10 @@ li {
   height: auto;
   transform: translateY(-50%);
   top: 50%;
+
+  p {
+    color: $white;
+  }
 }
 
 .title {
@@ -262,14 +304,27 @@ li {
   color: $black;
 }
 
+.q-minhee-d {
+  background-color: $black;
+  width: 230px;
+  border-radius: 24px;
+  margin-bottom: 24px;
+  padding: 24px;
+  color: $point;
+  opacity: 0;
+}
+
+.ind-dot:hover ~ .q-minhee-d {
+  opacity: 1;
+}
 // ======= 👆contents C end👆
 // ======= 👇contents D👇
 .contents-d {
-  padding: 120px 0;
-  position: relative;
+  padding: 100px 0;
   max-width: 80vw;
   height: 20px;
   margin: 0 auto;
+  height: 50%;
 }
 
 .content-d-title {
@@ -288,7 +343,7 @@ li {
 
 .content-d-info {
   display: flex;
-  position: relative;
+  margin: 0 auto;
   align-items: center;
   width: 100%;
   color: $white;
@@ -314,6 +369,7 @@ li {
   width: 100%;
   position: relative;
   text-align: center;
+  display: inline-block;
 }
 
 .step-info {
@@ -329,12 +385,181 @@ li {
 // ======= 👆contents D end👆
 // ======= 👇contents E👇
 .contents-e {
-  background-color: $white;
+  background-color: #ffffff;
   padding: 100px 0;
 }
 
 .content-e-title {
   text-align: center;
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    color: $point;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
+  }
+
+  img {
+    padding: 32px;
+    max-width: 720px;
+  }
+
+  h2 {
+    font-size: 32px;
+    letter-spacing: 8px;
+  }
 }
+
+.image-area {
+  background-color: #ffffff;
+  max-width: 1400px;
+  margin: 80px auto;
+  padding: 80px 0;
+}
+
+.image-area:hover {
+  img {
+    max-width: 800px;
+    transition: ease-in-out 0.8s;
+  }
+}
+
 // ======= 👆contents E end👆
+// ======= 👇contents F👇
+
+.contents-f {
+  padding: 100px 0;
+}
+
+.content-f-title {
+  text-align: center;
+
+  h1 {
+    font-size: 48px;
+    color: $white;
+  }
+
+  p {
+    color: $point;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: normal;
+    color: $white;
+    margin-top: 18px;
+    opacity: 0.8;
+  }
+}
+
+.contents-f-btn {
+  margin: 0 auto;
+  background-color: $point;
+  width: 180px;
+  height: 60px;
+  li {
+    margin-top: 32px;
+    padding-top: 1.7vh;
+    color: $black;
+  }
+}
+
+.contents-f-btn:hover {
+  background-color: $white;
+  li {
+    color: $black;
+  }
+  transition: ease-in-out 0.8s;
+}
+
+.content-f-info {
+  padding: 100px 0;
+  display: flex;
+}
+
+.content-f-50 {
+  width: 50%;
+  margin-left: 8%;
+  color: $white;
+}
+
+.content-f-text {
+  align-items: center;
+  margin-bottom: 32px;
+  p {
+    line-height: 1.8;
+    font-size: 18px;
+  }
+}
+
+.content-f-50-r {
+  width: 50%;
+  height: 80%;
+  overflow: hidden;
+  margin-left: 24px;
+}
+// ======= 👆contents F end👆
+// ======= 👇contents G👇
+
+.contents-g {
+  padding: 100px 0;
+  background-color: $white;
+}
+
+.content-g-title {
+  text-align: center;
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    color: $point;
+    margin-bottom: 24px;
+    letter-spacing: 4px;
+  }
+}
+
+.contents-g-btn {
+  margin: 0 auto;
+  background-color: $point;
+  width: 180px;
+  height: 60px;
+  li {
+    margin-top: 32px;
+    padding-top: 1.7vh;
+    color: $black;
+  }
+}
+
+.contents-g-btn:hover {
+  background-color: $black;
+  li {
+    color: $white;
+  }
+  transition: ease-in-out 0.8s;
+}
+// ======= 👆contents G end👆
 // ===================== 👆contents end👆
+
+footer {
+  background-color: $black;
+  width: 100%;
+  bottom: 0;
+  color: $point;
+
+  h1 {
+    padding: 120px 0;
+    text-align: center;
+    font-size: 48px;
+  }
+}
+
+.poin {
+  color: $point;
+}
