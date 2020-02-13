@@ -5,33 +5,247 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="/favicon/favicon.ico" />
-
-    <title>파비콘테스트</title>
-
-    <script>
-      var userAgent = navigator.userAgent.toLowerCase(); // 접속 핸드폰 정보
-
-      // 모바일 홈페이지 바로가기 링크 생성
-      if (userAgent.match("iphone")) {
-        document.write(
-          '<link rel="apple-touch-icon" href="/favicon/favicon72.png" />'
-        );
-      } else if (userAgent.match("ipad")) {
-        document.write(
-          '<link rel="apple-touch-icon" sizes="72*72" href="/favicon/favicon72.png" />'
-        );
-      } else if (userAgent.match("ipod")) {
-        document.write(
-          '<link rel="apple-touch-icon" href="/favicon/favicon72.png" />'
-        );
-      } else if (userAgent.match("android")) {
-        document.write(
-          '<link rel="shortcut icon" href="/favicon/favicon72.png" />'
-        );
-      }
-    </script>
+    <link rel="stylesheet" type="text/css" href="asset/minhee.css" />
+    <title>2020 숙제</title>
   </head>
+
+  <!-- 숙제시작 -->
   <body>
-    <p>테스트 중</p>
+    <header class="home-top">
+      <div class="home-logo">
+        <!-- 👇Left SVG Logo👇  -->
+        <span class="home-logo-w"
+          ><a class="home-link" href="#">
+            <object
+              type="image/svg+xml"
+              data="/asset/image/ex-logo.svg"
+              class="home-logo-ic ic-hover"
+            >
+            </object></a
+        ></span>
+      </div>
+      <!--  👆Left SVG Logo 👆  -->
+
+      <!-- 👇Right Menu👇  -->
+      <div class="home-menu">
+        <ul class="home-menu-ul">
+          <li class="home-menu-right btn-accent-a">Menu A</li>
+          <li class="home-menu-right btn-accent-b">Menu B</li>
+        </ul>
+      </div>
+      <!--  👆Right Menu 👆  -->
+    </header>
+
+    <div class="contents">
+      <!-- 👇 콘텐츠 영역 A 👇  -->
+      <div class="contents-a">
+        <div class="content-a-hero">
+           <h1 class="title"><span class="title-area">삶이 새롭게</br>열리다</span></h1>
+        </div>
+        <div class="content-a-arw">
+          <span class="ic-arw">
+            <object
+              type="image/svg+xml"
+              data="/asset/image/ex-arw-btm.svg"
+            ></object
+          ></span>
+        </div>
+
+        <div class="content-a-hero-image">
+          <div class="content-a-hero-gird">
+            <div class="image-pd back-image-20">
+              <img src="https://i.imgur.com/TutoJP2.jpg" alt="a" />
+            </div>
+            <div class="image-pd back-image-10">
+              <img src="https://i.imgur.com/twQBgP0.jpg" alt="b" />
+            </div>
+            <div class="image-pd center-image">
+              <img src="https://i.imgur.com/2tBVD4U.png" alt="center" />
+            </div>
+            <div class="image-pd back-image-10">
+              <img src="https://i.imgur.com/2YZL7hE.jpg" alt="c" />
+            </div>
+            <div class="image-pd back-image-20">
+              <img src="https://i.imgur.com/H4sGWe7.jpg" alt="d" />
+            </div>
+          </div>
+
+          <div class="content-a-hero-gird-b">
+            <div class="image-pd back-image-20">
+              <img src="https://i.imgur.com/TutoJP2.jpg" alt="a" />
+            </div>
+            <div class="image-pd back-image-10">
+              <img src="https://i.imgur.com/twQBgP0.jpg" alt="b" />
+            </div>
+            <div class="image-pd center-image">
+              <img src="https://i.imgur.com/2tBVD4U.png" alt="center" />
+            </div>
+            <div class="image-pd back-image-10">
+              <img src="https://i.imgur.com/2YZL7hE.jpg" alt="c" />
+            </div>
+            <div class="image-pd back-image-20">
+              <img src="https://i.imgur.com/H4sGWe7.jpg" alt="d" />
+            </div>
+          </div>
+
+          <div class="content-a-hero-gird-b">
+            <div class="image-pd back-image-20">
+              <img src="https://i.imgur.com/TutoJP2.jpg" alt="a" />
+            </div>
+            <div class="image-pd back-image-10">
+              <img src="https://i.imgur.com/twQBgP0.jpg" alt="b" />
+            </div>
+            <div class="image-pd center-image">
+              <img src="https://i.imgur.com/2tBVD4U.png" alt="center" />
+            </div>
+            <div class="image-pd back-image-10">
+              <img src="https://i.imgur.com/2YZL7hE.jpg" alt="c" />
+            </div>
+            <div class="image-pd back-image-20">
+              <img src="https://i.imgur.com/H4sGWe7.jpg" alt="d" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  👆콘텐츠 영역 A 👆  -->
+
+      <!-- 👇 콘텐츠 영역 B 👇  -->
+      <div class="contents-b">
+        <h1 class="sub-title">우리는 도시 생활이 아름다운 삶이라고 믿습니다.</h1>
+      </div>
+      <!--  👆콘텐츠 영역 B 👆  -->
+
+      <!-- 👇 콘텐츠 영역 C 👇  -->
+      <div class="contents-c">
+        <div class="content-c-inner">
+          <div class="content-c-inner-media">
+
+            <div class="madal">
+              <div class="f-left">
+                <img class="play-video" src="https://i.imgur.com/OQSqcCT.png" alt="vedio" />
+                <object
+                  type="image/svg+xml"
+                  data="/asset/image/ex-play-btn.svg"
+                  class="play-ic"
+                ></object>
+              </div>
+              <div class="content-c-info">
+                <span class="info-text"> 
+                  <p>비디오</p>
+                  <h1>Title A</h1>
+                </span>
+              </div>
+            </div>
+
+            <div class="madal">
+              <div class="f-left">
+                <img class="play-video" src="https://i.imgur.com/OQSqcCT.png" alt="vedio" />
+                <object
+                  type="image/svg+xml"
+                  data="/asset/image/ex-play-btn.svg"
+                  class="play-ic"
+                ></object>
+              </div>
+              <div class="content-c-info">
+                <span class="info-text"> 
+                  <p>비디오</p>
+                  <h1>Title A</h1>
+                </span>
+              </div>
+            </div>
+
+            <div class="madal">
+              <div class="f-left">
+                <img class="play-video" src="https://i.imgur.com/OQSqcCT.png" alt="vedio" />
+                <object
+                  type="image/svg+xml"
+                  data="/asset/image/ex-play-btn.svg"
+                  class="play-ic"
+                ></object>
+              </div>
+              <div class="content-c-info">
+                <span class="info-text"> 
+                  <p>비디오</p>
+                  <h1>Title A</h1>
+                </span>
+              </div>
+            </div>
+
+            <div class="madal">
+              <div class="f-left">
+                <img class="play-video" src="https://i.imgur.com/OQSqcCT.png" alt="vedio" />
+                <object
+                  type="image/svg+xml"
+                  data="/asset/image/ex-play-btn.svg"
+                  class="play-ic"
+                ></object>
+              </div>
+              <div class="content-c-info">
+                <span class="info-text"> 
+                  <p>비디오</p>
+                  <h1>Title A</h1>
+                </span>
+              </div>
+            </div>
+
+            <div class="madal">
+              <div class="f-left">
+                <img class="play-video" src="https://i.imgur.com/OQSqcCT.png" alt="vedio" />
+                <object
+                  type="image/svg+xml"
+                  data="/asset/image/ex-play-btn.svg"
+                  class="play-ic"
+                ></object>
+              </div>
+              <div class="content-c-info">
+                <span class="info-text"> 
+                  <p>비디오</p>
+                  <h1>Title A</h1>
+                </span>
+              </div>
+            </div>
+
+          </div>
+
+          <ul class="indgator">
+            <li class="ind-dot">focus</li>
+           </ul>
+        </div>
+      </div>
+      <!--  👆콘텐츠 영역 C 👆  -->
+
+      <!-- 👇 콘텐츠 영역 D👇  -->
+      <div class="contents-d">
+        <div class="content-d-title">
+          <p> LIME 이용 방법 </p>
+          <h1>간편하고 쉽게 이용할 수 있는,</br> 모두를 위한 마이크로 모빌리티</h1>
+        </div>
+        <div class="content-d-info">
+          <div class="step-ind">
+            <h3> 위치찾기 </h3>
+            <h3> 스캔하기 </h3>
+            <h3> 라이딩하기 </h3>
+          </div>
+          <div class="app-image"> 
+            <img src="https://i.imgur.com/NKfPOQc.png">
+          </div>
+          <div class="step-info">
+            <h3> 앱을 다운로드하여 가장 가까이 있는 킥보드를 찾으세요. </h3>
+          </div>
+        </div>
+      </div>
+    <!--  👆콘텐츠 영역 D 👆  -->
+    <!-- 👇 콘텐츠 영역 E👇  -->
+    <div class="contents-e">
+      <div class="content-e-title">
+        <p> LIME 이용 방법 </p>
+        <h1>간편하고 쉽게 이용할 수 있는, 모두를 위한 마이크로 모빌리티</h1>
+      </div>
+
+    </div>
+
+    </div>
+
+    <script type="text/javascript" src="/asset/bace.js"></script>
   </body>
 </html>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="80px" height="80px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#67FF80" cx="40" cy="40" r="36"></circle>
+        <path d="M47.3792763,30.3356994 L59.1112014,48.8597917 C60.2932058,50.7261144 59.7384562,53.1972719 57.8721334,54.3792763 C57.2319312,54.7847377 56.4897231,55 55.7319251,55 L32.2680749,55 C30.0589359,55 28.2680749,53.209139 28.2680749,51 C28.2680749,50.242202 28.4833372,49.4999938 28.8887986,48.8597917 L40.6207237,30.3356994 C41.8027281,28.4693767 44.2738856,27.914627 46.1402083,29.0966314 C46.6397342,29.4129979 47.0629099,29.8361735 47.3792763,30.3356994 Z" id="Triangle" fill="#0A141C" transform="translate(44.000000, 40.000000) rotate(90.000000) translate(-44.000000, -40.000000) "></path>
+    </g>
+</svg>

@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+// --------------------------------------------------
+// --------------------------------------------------
+// font
+
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean");
+
+@font-face {
+  font-family: "Nanum Gothic", sans-serif;
+  src: url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap&subset=korean");
+}
+
+@font-face {
+  font-family: "CircularPro-Bold";
+  src: url("/asset/font/CircularPro-Bold.otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CircularPro-Medium";
+  src: url("/asset/font/CircularPro-Medium.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// --------------------------------------------------
+// Typo set
+
+$menu-font: "CircularPro-Medium";
+$en-title: "CircularPro-Bold";
+$kr-title: "Nanum Gothic";
+
+// --------------------------------------------------
+// --------------------------------------------------
+// Color
+
+$black: #0a141c;
+$white: #fafafa;
+$point: #67ff80;
+
+// --------------------------------------------------
+// --------------------------------------------------
+
+@import "bace";
