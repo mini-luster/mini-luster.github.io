@@ -1,0 +1,32 @@
+// ============================================
+// Contents Width 사이즈
+// ============================================
+
+.container {
+  width: $container-width;
+}
+.container-small {
+  width: (7/ 12 * 100%);
+}
+
+// Position & Location
+.p-fixed {
+  position: fixed;
+}
+.relative {
+  position: relative;
+}
+
+.btm-0 {
+  bottom: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+//Spacing

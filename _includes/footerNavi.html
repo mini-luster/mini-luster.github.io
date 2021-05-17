@@ -1,0 +1,27 @@
+<footer class = "container flex justify-between p-fixed btm-0">
+
+
+
+    <div>
+      {% for item in site.data.footerNavi-left %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="font-weight: 600;"{% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+    </div>
+  
+  
+  
+    <div>
+      {% for item in site.data.footerNavi-right %}
+      <a href="{{ item.link }}" {% if page.url == item.link %}style="font-weight: 600;"{% endif %}>
+        {{ item.name }}
+      </a>
+    {% endfor %}
+  
+    </div>
+
+
+
+
+</footer>

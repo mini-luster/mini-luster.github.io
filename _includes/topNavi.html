@@ -1,0 +1,12 @@
+<nav class="container flex justify-between item-center">
+  <nav>
+    {% for item in site.data.topNavi %}
+   <a href="{{ item.link }}" {% if page.url == item.link %}style=" font-weight: 600;"{% endif %}>
+    {{ item.name }} 
+   </a>
+    {% endfor %}
+  </nav>
+  <span>🌑</span>
+</nav>
+
+

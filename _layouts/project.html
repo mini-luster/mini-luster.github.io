@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<!-- project index -->
+<h1>Project Page 제작중입니다</h1>
+
+<div>
+  {% assign projects = site.projects | sort : 'date' | reverse %} {% for project
+  in projects %} {% include project_card.html %} {% endfor %}
+</div>

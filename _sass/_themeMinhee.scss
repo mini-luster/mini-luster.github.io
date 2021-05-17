@@ -1,0 +1,42 @@
+// ======================
+// 폰트 및 컬러 셋팅
+// ======================
+
+// A : Font
+
+$bodyFont: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+  sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$title: 24px;
+$title-lh: ($title + 6);
+
+$txt-m: 18px;
+$txt-m-lh: ($txt-m + 6);
+
+$txt-s: 16px;
+$txt-s-lh: ($txt-s + 6);
+
+// 🌕 : Color
+
+$white: #ffffff;
+$black: #000000;
+
+$gray-500: #b1b1b1;
+$gray-300: #e7e7e7;
+$brand-color: #0066ff;
+
+//
+
+$container-width: 760px;
+
+$spacing: 8px !default;
+
+$spacing-1: $spacing !default; // 8px
+$spacing-2: ($spacing * 2) !default; // 16px
+$spacing-3: ($spacing * 3) !default; // 24px
+$spacing-4: ($spacing * 4) !default; // 32px
+$spacing-5: ($spacing * 5) !default; // 40px
+$spacing-6: ($spacing * 6) !default; // 47px
+$spacing-7: ($spacing * 6) !default; // 47px
+
+@import "base", "flexbox", "construct", "element";

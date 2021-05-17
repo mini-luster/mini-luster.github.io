@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+  {% include head.html %}
+  
+<body>
+
+
+  <div class = "flex justify-center"> 
+   {% include topNavi.html %}
+  </div>
+
+    <main class="container center">
+
+      <div class="container-small">
+        
+        <h1 class="title">
+          Platform Designer <br>
+          Product Design System
+        </h1>
+    
+  
+        <p class="paragraph">As a platform designer, I am creating a product design system for services, product makers, and users. <br> I like to think about the overall problem of the service and solve it step by step.</p>
+    
+        <div class="copyright">
+          <span class="flex item-center"> © <p>&nbsp;2021</p></span>
+        </div>
+    
+       
+      
+      </div>
+    
+
+      
+        {% assign index_posts = site.posts | concat: site.projects | sort : 'date' | reverse  %}
+        {% for post in index_posts limit:3 %}
+        
+        <div class="list-card flex item-center">
+          <span>{{ post.date | date: "%Y.%m.%d " }}
+            {{ post.category }}</span>
+          <p>{{ post.title }}</p>
+          
+          <svg viewBox="0 0 18 18">
+            <path d="M11.962 9l-6.15 6.15a.181.181 0 000 .262l.675.675a.181.181 0 00.263 0l6.937-6.937a.181.181 0 000-.263L6.75 1.912a.181.181 0 00-.263 0l-.675.675a.181.181 0 000 .263L11.962 9z"/>
+          </svg>
+        </div>       
+     
+       
+      
+        {% endfor %}
+ 
+
+
+    </main>
+    
+  <div class = "flex justify-center"> 
+    {% include footerNavi.html %}
+  </div>
+
+</body>
+
+
+</html>

@@ -1,0 +1,31 @@
+// ============================================
+// FlexBox,Justify-content 레이아웃 속성
+// ============================================
+
+// FlexBox
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+// justify-content
+
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+
+// 정렬
+.center {
+  margin: 0 auto;
+}
+
+.item-center {
+  align-items: center;
+}
